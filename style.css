@@ -1,0 +1,203 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    color: #eeeeee;
+    padding: 0;
+    margin: auto;
+}
+
+body {
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size:6rem;
+    letter-spacing: 0.025em;
+    margin:auto;
+}
+
+h3 {
+    margin:auto;
+}
+
+h4 {
+    margin:auto auto 1em;
+}
+
+p {
+    margin: 1em auto auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.hero{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin: 2em auto;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #207B68;
+    width: 70%;
+    padding: 2em;
+    border-radius: 30px;
+}
+
+.icon-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-row{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-icon{
+    height: 50px;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 50%;
+    border-color: #183932;
+    border-width: 10px;
+    border-style: solid;
+    margin:auto;
+}
+
+.CV {
+    background-color: #207B68;
+    padding: 2em 0;
+}
+
+.CV-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CV-name {
+    margin: 1em;
+}
+.CV-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em auto;
+}
+
+.CV-card{
+    width:30%;
+    padding: 1em;
+    background-color: #183932;
+    border-radius: 15px;
+}
+
+.dark-heading {
+    color: #183932;
+}
+
+.Portfolio {
+    padding: 0;
+}
+
+.Portfolio-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Portfolio-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+}
+
+.Portfolio-card{
+    width:22.5%;
+    padding: 1.5em;
+    background-color: #207B68;
+    border-radius: 15px;
+}
+
+.Portfolio-card img {
+    width: 90%;
+}
+
+.Interests {
+    padding: 0;
+}
+
+.Interests-container {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Interests-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+    background-color: #207B68;
+    border-radius: 15px;
+}
+
+.Interests-card{
+    width:30%;
+    padding: 1.5em 0 1.5em 1.5em;
+}
+
+.Interests-card:last-of-type{
+    width:30%;
+    padding: 1.5em;
+}
+
+.Interests-card img {
+    width: 90%;
+}
+
+.Contact {
+    background-color: #207B68;
+    margin: 2em auto auto;
+}
+
+.Contact-container {
+    padding: 2em;
+    width: 70%;
+}
+
+.Contact-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Contact-row p{
+    margin:1em auto;
+}
+
+.Contact-element {
+    width: 45%;
+}
+
+.attribution a:link {
+    color: #eeeeee;
+}
+
+.attribution a:visited {
+    color: #ddf3ee;
+}
